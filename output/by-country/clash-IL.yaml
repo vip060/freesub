@@ -5,18 +5,19 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇮🇱 以色列 (Israel) 01 - xiaohe
-  server: 185.95.231.156
+  server: 45.131.7.162
   port: 443
   udp: true
   type: vless
-  uuid: 1f8cf47a-b66a-4916-979f-26edfcf44eea
-  flow: xtls-rprx-vision
+  uuid: b2593749-691c-428c-9481-14979cba3446
   tls: true
-  reality-opts:
-    public-key: 8eXftARun6KH38UZhuqIfPR1VF2DLS9RMBZEnF5k6To
-    short-id: a3a578ab
-  servername: www.apple.com
-  client-fingerprint: chrome
+  servername: xi.tbv.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: xi.tbv.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
