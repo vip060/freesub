@@ -5,10 +5,10 @@
   "outbounds": [
     {
       "type": "vless",
-      "tag": "🇨🇱 智利 (Chile) 01 - xiaohe",
-      "server": "34.176.187.219",
+      "tag": "🇸🇪 瑞典 (Sweden) 01 - xiaohe",
+      "server": "34.51.187.118",
       "server_port": 443,
-      "uuid": "ad5325f8-f0b3-41c4-a561-113529b60e70",
+      "uuid": "e4be912f-68e8-4d51-80a4-1342b646f8e0",
       "tls": {
         "enabled": true,
         "server_name": "www.cloudflare.com",
@@ -18,8 +18,8 @@
         },
         "reality": {
           "enabled": true,
-          "public_key": "HnHVuSObMrldWGzq1-Eb93fwgu6QQRp6H0_8LX3ikDc",
-          "short_id": "2c2d919f5183d0b7"
+          "public_key": "fV003yDr_sb_Wkgz6MxnIUJMgD15osWhzU-HZ5fLPFg",
+          "short_id": "79ff7d51e3c56323"
         }
       }
     },
@@ -28,14 +28,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇱 智利 (Chile) 01 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 01 - xiaohe"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 智利 (Chile) 01 - xiaohe"
+        "🇸🇪 瑞典 (Sweden) 01 - xiaohe"
       ],
       "url": "https://www.gstatic.com/generate_204"
     },
