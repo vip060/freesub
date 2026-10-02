@@ -4,16 +4,12 @@
   },
   "outbounds": [
     {
-      "type": "vmess",
+      "type": "shadowsocks",
       "tag": "🇹🇷 土耳其 (Turkey) 01 - xiaohe",
-      "server": "206.1.99.160",
-      "server_port": 443,
-      "uuid": "Nitro_Skybot@",
-      "security": "auto",
-      "transport": {
-        "type": "ws",
-        "path": "/"
-      }
+      "server": "bale.xv98.ir",
+      "server_port": 5051,
+      "method": "chacha20-ietf-poly1305",
+      "password": "68mL2QkZEBlxWa3hcslGDw"
     },
     {
       "type": "vless",
